@@ -1,0 +1,121 @@
+.grey {
+    color: #484848;
+}
+.red {
+    color: #ef5350
+}
+.blue {
+    color: #0277bd;
+}
+.orange {
+    color: #fd6b0d;
+}
+.yellow {
+    color: #e5af0e;
+}
+.green {
+    color: #2e7d32;
+}
+.cyan {
+    color: #3f9489;
+}
+.borders {
+    color: cadetblue;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: left;
+}
+.card-container {
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px auto;
+
+}
+.card {
+    flex-basis: 280px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+}
+.card-inner-container {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.img-actor img {
+    width: 250px;
+    height: 250px;
+    margin-top: -75px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+}
+.name p {
+    text-align: right;
+    font-weight: bold;
+}
+.film-info {
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid #3f9489;
+    border-bottom: 3px solid #3f9489;    
+}
+.film-logo img {
+    width: 90px;
+    height: 131px;
+}
+.film-description {
+	flex-grow: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+}
+h3{
+    margin: 0;
+}
+h4 {
+    margin: 10px;
+}
+p {
+    margin: 0
+}
+.rating {
+    color: #e5af0e;
+    margin: 0;
+}
+.imdb {
+	align-self: flex-end;
+	margin-top: 20px;
+}
+.imdb img {
+	height: 25px;
+}
+.award {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.award-avatar img {
+    width: 30px;
+    height: 55px;
+}  
+.award-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 14px;
+    line-height: 1.4;
+    padding-left: 2em;
+}
